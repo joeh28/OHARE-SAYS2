@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -134,6 +135,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1676}
     - Class: 114
+      Script: {instanceID: 1862}
+    - Class: 114
       Script: {instanceID: 1924}
     - Class: 114
       Script: {instanceID: 2272}
@@ -143,6 +146,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2696}
     - Class: 114
       Script: {instanceID: 2882}
+    - Class: 114
+      Script: {instanceID: 2938}
     - Class: 114
       Script: {instanceID: 2964}
     - Class: 114
@@ -260,6 +265,8 @@ ScriptsOnlyBuild:
     - Class: 82
       Script: {instanceID: 0}
     - Class: 83
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -766,7 +773,7 @@ ScriptsOnlyBuild:
     className: PlayMenu
   - hash:
       serializedVersion: 2
-      Hash: 17d999735c2a29898ed2b2cab9d8501f
+      Hash: 1b37fcd3f808220ca9fae34f90216270
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Keyboard
