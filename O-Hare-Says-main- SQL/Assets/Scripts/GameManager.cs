@@ -106,12 +106,14 @@ public class GameManager : MonoBehaviour
 
     }
 
+    //Calls the function to load the scene for the player to input their name then submit their name and score to the database.
     public void doSubmitScore()
     {
         SceneManager.LoadScene("SubmitScoreTest");
 
     }
 
+    //Calls Function to display the leaderboard.
     public void DisplayScore()
     {
         SceneManager.LoadScene("DisplayScoreTest");

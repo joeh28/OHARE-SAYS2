@@ -10,9 +10,9 @@ public class Backspace : MonoBehaviour
     int wordIndex = -1;
     string alpha = null;
     string alpha2 = null;
-    public TMP_Text myLetter = null;
+    public InputField myLetter2 = null;
     char[] nameChar = new char[30];
-    //public Text index = null;
+
 
     //Use for initialization
     public void nameFunc (string alphabet)
@@ -22,10 +22,11 @@ public class Backspace : MonoBehaviour
         nameChar[wordIndex] = keepchar[0];
         alpha = nameChar[wordIndex].ToString();
         word = word + alpha;
-        myLetter.text = word;
-        //index.text = wordIndex.ToString();
+        myLetter2.text = word;
     }
 
+
+    //Function to remove the current letter using the backspace button
     public void backspaceFunction()
     {
         if(wordIndex >= 0)
@@ -38,8 +39,8 @@ public class Backspace : MonoBehaviour
                 alpha2 = alpha2 + nameChar[i].ToString();
             }
             word = alpha2;
-            myLetter.text = word;
-            //index.text = wordIndex.ToString();
+            myLetter2.text = word;
+
         }
     }
 }

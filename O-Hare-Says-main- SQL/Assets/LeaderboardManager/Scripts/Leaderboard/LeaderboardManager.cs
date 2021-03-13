@@ -24,7 +24,7 @@ public class LeaderboardManager : MonoBehaviour {
 
     }
 
-
+    //Function to submit the player's name and score to the database using PHP
     public void doSubmitScore(string strName, int iScore) {
         Debug.Log("doSubmitScore: " + iScore);
         string strHash = Md5Sum(strName + iScore.ToString() + iGameID.ToString() + strSecretKey);
@@ -68,6 +68,7 @@ public class LeaderboardManager : MonoBehaviour {
     }
 
     public void getTopScores(Text textNames, Text textScores) {
+    
         string strURL = "http://" + Constants.LEADERBOARD_DOMAIN + "/OHareSays/scores/TopScores.php?game=" + iGameID;
         StartCoroutine(getScores(strURL, textNames, textScores));
 

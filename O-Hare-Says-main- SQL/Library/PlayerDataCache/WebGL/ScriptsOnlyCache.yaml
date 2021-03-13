@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Backspace
     - Button
     - GameManager
     - Keyboard
@@ -21,7 +22,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_Settings
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
-    - TMPro.TextMeshProUGUI
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -135,8 +135,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1676}
     - Class: 114
-      Script: {instanceID: 1862}
-    - Class: 114
       Script: {instanceID: 1924}
     - Class: 114
       Script: {instanceID: 2272}
@@ -147,8 +145,6 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2882}
     - Class: 114
-      Script: {instanceID: 2938}
-    - Class: 114
       Script: {instanceID: 2964}
     - Class: 114
       Script: {instanceID: 3124}
@@ -158,6 +154,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3450}
     - Class: 114
       Script: {instanceID: 3594}
+    - Class: 114
+      Script: {instanceID: 3716}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -503,7 +501,7 @@ ScriptsOnlyBuild:
     className: PlayModeRunnerCallback
   - hash:
       serializedVersion: 2
-      Hash: 3a1812517d0aa79e6b8c6b3f853e2590
+      Hash: ae12fbb6cb415b27050fbd2b4ecb8a32
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: SubmitScoreMenu
@@ -773,7 +771,7 @@ ScriptsOnlyBuild:
     className: PlayMenu
   - hash:
       serializedVersion: 2
-      Hash: 1b37fcd3f808220ca9fae34f90216270
+      Hash: b92adb3f19895775251af0ec13acc6bc
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Keyboard
@@ -1005,6 +1003,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: TMPro.Examples
     className: TMP_TextEventCheck
+  - hash:
+      serializedVersion: 2
+      Hash: 4a6fbc39182359a70a2b48b53f345d99
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Backspace
   - hash:
       serializedVersion: 2
       Hash: 4fd8bf02e3089425d3502e26c44ba31a

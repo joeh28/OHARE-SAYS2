@@ -9,25 +9,26 @@ using UnityEngine.SceneManagement;
 
 public class LeaderboardDisplayMenu : MonoBehaviour {
 
-    //public GameManager gm;
     public Text textNames;
     public Text textScores;
+    
+
     void Start() {
         loadScores();
         
     }
 
+    //Function to load the topscores from the database to the leaderboard
     void loadScores() {
         LeaderboardManager leaderboardmanager = GameObject.FindObjectOfType<LeaderboardManager>();
         leaderboardmanager.getTopScores(textNames, textScores);
 
     }
 
+    //Function to return back to the main menu
     public void doLoadGame() {
-        //SceneManager.LoadScene("LeaderboardManager/Scenes/title");
-        SceneManager.LoadScene("Scenes/O Hare Says");
-        //gm.StartGame();
-
+       SceneManager.LoadScene("Scenes/O Hare Says");
+       
     }
 
 }

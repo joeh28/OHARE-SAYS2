@@ -1,4 +1,4 @@
-﻿//2020 Levi D. Smith
+﻿//Constants used to run PHP scripts on the VM server
 
 public class Constants {
     public const int GAME_ID = -1;

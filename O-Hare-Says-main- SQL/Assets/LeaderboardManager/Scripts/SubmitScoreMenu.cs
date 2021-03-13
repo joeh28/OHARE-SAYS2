@@ -10,27 +10,33 @@ public class SubmitScoreMenu : MonoBehaviour {
 
     Score score;
     int iScore;
-    public Text TextName;
+    public InputField TextName;
     public Text TextScore;
+    
 
     void Start() {
-        getRandomScore();
-        //score.SavePlayerScore();
-        
+        getPlayerScore();
+            
     }
 
+    //Function to get the player score from playerPrefs
+    void getPlayerScore() {
 
-    void getRandomScore() {
-        //iScore = UnityEngine.Random.Range(1, 100);
-        //TextScore.text = string.Format("{0}", iScore);
         TextScore.text = PlayerPrefs.GetInt("Highscore").ToString();
-
     }
 
+    //Function to submit the player score to the leaderboard manager
     public void doSubmitScore() {
         LeaderboardManager leaderboardmanager = GameObject.FindObjectOfType<LeaderboardManager>();
         leaderboardmanager.doSubmitScore(TextName.text, Int32.Parse(TextScore.text));
-        SceneManager.LoadScene("LeaderboardManager/Scenes/DisplayScoreTest");
+        SceneManager.LoadScene("LeaderboardManager/Scenes/DisplayScoreTest"); 
+        
+    }
+
+    public void DisplayScore()
+    {
+        SceneManager.LoadScene("DisplayScoreTest");
 
     }
+
 }

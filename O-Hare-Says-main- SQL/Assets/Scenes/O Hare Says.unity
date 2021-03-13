@@ -771,8 +771,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.6173, y: 0}
-  m_SizeDelta: {x: 645.8705, y: 680}
+  m_AnchoredPosition: {x: 8.7093, y: 31.353516}
+  m_SizeDelta: {x: 907.1497, y: 742.707}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &520287567
 MonoBehaviour:
@@ -1213,7 +1213,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 2
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -1674,8 +1674,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -10, y: -50}
-  m_SizeDelta: {x: 220.46716, y: 60}
+  m_AnchoredPosition: {x: -646, y: -214}
+  m_SizeDelta: {x: 65.7506, y: 60}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &1081355972
 MonoBehaviour:
@@ -2242,8 +2242,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 12, y: -50}
-  m_SizeDelta: {x: 220.4672, y: 60}
+  m_AnchoredPosition: {x: 684, y: -214}
+  m_SizeDelta: {x: 74.3718, y: 60}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1436694616
 MonoBehaviour:
@@ -2652,7 +2652,7 @@ GameObject:
   - component: {fileID: 1818255725}
   - component: {fileID: 1818255724}
   m_Layer: 5
-  m_Name: OHareSaysImage
+  m_Name: OHareSaysLogo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
